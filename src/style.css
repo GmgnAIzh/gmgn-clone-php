@@ -1,0 +1,67 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #e1e5ea;
+}
+.browser-container {
+    width: 95%;
+    max-width: 1800px;
+    height: 90vh;
+    margin: 5vh auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid #c5c5c5;
+}
+.browser-header {
+    background: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dcdcdc;
+}
+.browser-dots {
+    display: flex;
+    gap: 8px;
+}
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.red { background: #ff5f57; border: 1px solid #e24640;}
+.yellow { background: #ffbd2e; border: 1px solid #e2a125;}
+.green { background: #27c93f; border: 1px solid #1e9e2d;}
+.browser-address-bar {
+    flex-grow: 1;
+    background: #ffffff;
+    color: #333;
+    padding: 8px 15px;
+    margin: 0 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-align: left;
+    border: 1px solid #dcdcdc;
+}
+.browser-content {
+    flex-grow: 1;
+    overflow: hidden;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex-grow: 1;
+    display: flex;
+}
+#tradingview_b62c7 {
+    height: 100% !important;
+}
+.tradingview-widget-copyright {
+    display: none;
+}
